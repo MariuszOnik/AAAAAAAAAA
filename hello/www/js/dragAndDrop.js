@@ -10,8 +10,12 @@ var g = hexi(1920, 1080, setup, ["./img/animals.json"]);
 g.start();
 
 //Set the background color and scale the canvas
-//g.backgroundColor = "black";
-g.scaleToWindow();
+
+g.fps = 30;
+g.border = "2px red dashed";
+g.backgroundColor = 0x000000;
+g.backgroundColor = "black";
+//g.scaleToWindow();
 
 //Declare variables used in more than one function
 var cat = undefined,
